@@ -5,7 +5,7 @@ using System.Threading.Tasks;
 
 namespace libreria_JAGS.Data.Models
 {
-    public class Book
+    public class Books
     {
         public int id { get; set; }
         public string Titulo { get; set; }
@@ -14,6 +14,7 @@ namespace libreria_JAGS.Data.Models
         public DateTime? DataRead { get; set; }
         public int? Rate { get; set; }
         public string Genero { get; set; }
+        public string Autor { get; set; }
         public string CoverUrl { get; set; }
         public DateTime DateAdded { get; set; }
     }

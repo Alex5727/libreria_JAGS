@@ -14,6 +14,6 @@ namespace libreria_JAGS.Data
 
         }
 
-        public DbSet<Book> Books { get; set; }
+        public DbSet<Books> Books { get; set; }
     }
 }

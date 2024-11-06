@@ -60,6 +60,7 @@ namespace libreria_JAGS
             {
                 endpoints.MapControllers();
             });
+            AppDbInitializer.Seed(app);
         }
     }
 }
